@@ -1,11 +1,11 @@
 {
   "libproj": {
-    "sysreqs": ["PROJ.4", "proj.maptools.org"],
+    "sysreqs": ["PROJ", "proj.maptools.org"],
     "platforms": {
       "DEB": "libproj-dev",
       "PKGBUILD": "proj",
       "OSX/brew": "proj",
-      "RPM": "proj-devel proj-epsg proj-nad"
+      "RPM": "proj-devel sqlite-devel"
     }
   }
 }
